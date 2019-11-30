@@ -94,5 +94,27 @@ Eventually you'll need these info to have your firebase configurations ready in 
 
 check docs [here](https://docs.expo.io/versions/v35.0.0/guides/using-firebase/#using-expo-with-firestore)
 
-Now, we have access to all firebase functionality, we'll be using **firestore** for storing our posts data, and **firestorage** for uploading images.
+Now, we have access to all firebase functionality,
+
+We'll be using **firestore** for storing our posts data, and **firestorage** for uploading images.
+
+We'll be using *Context API* to make code abstract, to reach firebase funtions from anywhere in the app,
+
+You can check the firebase folder in this repo
+
+Now let's set up our database in our firebase project
+
+![firebase database](Capture3.PNG)
+![firebase database](Capture4.PNG)
+then **Done**
+
+Now let's start a new collection which is something like a table in PSQL
+
+![firebase database](Capture5.PNG)
+
+![firebase database](Capture6.PNG)
+
+You can add data as much as you like, we'll be getting these data from our app but this is a demonstration of how data collection will look eventually  
+![firebase database](Capture7.PNG)
+
 

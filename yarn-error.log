@@ -34,6 +34,7 @@ npm manifest:
       "@expo/samples": "~3.0.3",
       "@expo/vector-icons": "^10.0.3",
       "@react-navigation/web": "^1.0.0-alpha.9",
+      "env2": "^2.2.2",
       "expo": "^35.0.0",
       "expo-asset": "^7.0.0",
       "expo-constants": "^7.0.0",
@@ -2402,6 +2403,11 @@ Lockfile:
     integrity sha512-+uw1inIHVPQoaVuHzRyXd21icM+cnt4CzD5rW+NC1wjOUSTOs+Te7FOv7AhN7vS9x/oIyhLP5PR1H+phQAHu5Q==
     dependencies:
       once "^1.4.0"
+  
+  env2@^2.2.2:
+    version "2.2.2"
+    resolved "https://registry.yarnpkg.com/env2/-/env2-2.2.2.tgz#1022b7cc69fadfcaba806745f0c3e4d85f3e9305"
+    integrity sha512-KHS47Smwr5AtT9RCxjsoCc+83sUI2uJIeK+VTI5MS8F0k312xzqFvbC4AyRNefPCNou7bvL7QSxmkT/h8x9rTg==
   
   envinfo@^5.7.0:
     version "5.12.1"
