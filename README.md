@@ -29,7 +29,7 @@ Yes, you have to install a mobile app from your mobile store to run your project
 
 > Expo client is the tool you will use to run your projects while you're developing them. When you serve your project with Expo CLI, it generates a development URL that you can open in Expo client to preview your app.
 
-You'll now what does this mean in a sec, just hold on with me...
+You'll know what does this mean in a sec, just hold on with me...
 
 #### Create a new app
 in your command line:
@@ -58,5 +58,41 @@ If you got lucky and there are no ports issues then _congratulations_ you've jus
 
 If you got stuck :cry: check the docs [here](https://docs.expo.io/versions/v35.0.0/get-started/create-a-new-app/)
 
+# Let's make something cool!
 
+we'll make something like instagram, I don't even have an instagram account but let's build its main functionality which is uploading images and adding some description to it and browsing all the added images in the home page.
+
+we'll be using firebase to upload images and save data and all backend stuff.
+
+### what is firebase?
+
+Firebase gives you functionality like analytics, databases, messaging and crash reporting so you can move quickly and focus on your users. Firebase is built on Google infrastructure and scales automatically, for even the largest apps.
+
+Thanks to expo-cli we don't have to add firebase libraries manually into the native mobile source code! yaaay :tada:
+
+we only need to install firebase package:
+
+
+```
+yarn add firebase
+```
+
+for more info about firebase check their docs [here](https://firebase.google.com/docs)
+
+To be able to use firebase; First we need to setup a Firebase Account and create a new project then go to the projects settings and add a new web app
+
+The Firebase console [here](https://console.firebase.google.com/u/0/) will provide you with an api key, and other identifiers for your project needed for initialization.
+
+You're adult :older_man: :older_woman: you can find your way through firebase docs...
+
+![firebase configurations](Capture2.PNG)
+
+
+Eventually you'll need these info to have your firebase configurations ready in your app:
+
+![firebase configurations](Capture1.PNG)
+
+check docs [here](https://docs.expo.io/versions/v35.0.0/guides/using-firebase/#using-expo-with-firestore)
+
+Now, we have access to all firebase functionality, we'll be using **firestore** for storing our posts data, and **firestorage** for uploading images.
 
