@@ -118,7 +118,7 @@ Now let's start a new collection which is something like a table in PSQL
 You can add data as much as you like, we'll be getting these data from our app but this is a demonstration of how data collection will look eventually  
 ![firebase database](Capture7.PNG)
 
-## Uploading images to firestore storage(firestorage)
+## Uploading images to firebase storage(firestorage)
 
 Firstly, we need **ImagePicker** which is a very important component to take photos or to pick an image from phone gallery
 
